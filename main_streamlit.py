@@ -69,7 +69,8 @@ def uploadDataToMDB(tweet_df):
         tweet_data.append(data)
 
     # Storing scrapped data to MongoDB
-    connString = 'mongodb://sathesht11:sathesh123@ac-pdkcaeq-' \
+    # you can replace your own password in *****
+    connString = 'mongodb://sathesht11:********@ac-pdkcaeq-' \
                  'shard-00-00.p3oqjnt.mongodb.net:27017,ac-' \
                  'pdkcaeq-shard-00-01.p3oqjnt.mongodb.net:27017,' \
                  'ac-pdkcaeq-shard-00-02.p3oqjnt.mongodb.net:' \
