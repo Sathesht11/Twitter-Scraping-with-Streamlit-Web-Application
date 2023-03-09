@@ -15,3 +15,9 @@ e.g. ("Scraped Word" : "Elon Musk", "Scraped Date" : "15-02-2023", "Scraped Data
    * With a **button to upload the sraped data to a MongoDB** database and, 
    * **Downloading** the data in **csv and json** format.
 
+## Packages:
+* snscrapre
+* streamlit
+* pandas
+* pymongo
+* streamlit_lottie
